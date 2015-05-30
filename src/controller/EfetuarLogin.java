@@ -24,7 +24,7 @@ public class EfetuarLogin {
 		String email = autenticacao.getEmail();
 		String senha = autenticacao.getSenha();
 
-		String searchQuery = "select * from tb_autenticacao where ds_EmailLogin='" + email + "' and ds_Senha='" + senha + "'";
+		String searchQuery = "select * from tb_usuario where EmailLogin='" + email + "' and Senha='" + senha + "'";
 	
 		
 		System.out.println("Your user name is " + email);          

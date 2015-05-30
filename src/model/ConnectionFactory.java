@@ -16,7 +16,7 @@ public class ConnectionFactory {
 	public static Connection getConnection() {
 
 		try {
-			String url = "jdbc:mysql://localhost/db_runtolive2";
+			String url = "jdbc:mysql://localhost/db_runtolive3";
 
 			Class.forName("com.mysql.jdbc.Driver");
 

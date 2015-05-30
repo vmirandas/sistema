@@ -5,10 +5,16 @@ package model;
  *
  */
 
+/**
+ * @author Verônica
+ *
+ */
 public class Autenticacao {
 	
 	private String email;
 	private String senha;
+	private String nome;
+	private String tipo;
 	public boolean validacao;
 	
 	public String getEmail() {
@@ -27,6 +33,22 @@ public class Autenticacao {
 		this.senha = senha;
 	}
 	
+	public String getNome() {
+		return nome;
+	}
+
+	public void setNome(String nome) {
+		this.nome = nome;
+	}
+
+	public String getTipo() {
+		return tipo;
+	}
+
+	public void setTipo(String tipo) {
+		this.tipo = tipo;
+	}
+
 	public boolean isValidacao() {
 		return validacao;
 	}

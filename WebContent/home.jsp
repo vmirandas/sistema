@@ -61,7 +61,7 @@
 						<li>
 							<a href="home.jsp">
 								<% Autenticacao currentUser = ((Autenticacao) (session.getAttribute("currentSessionUser")));%>
-	    						Olá, <%= currentUser.getEmail() %>
+	    						Olá, <%= currentUser.getNome() %>
     						</a>
    						</li>
 					</ul>
